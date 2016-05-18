@@ -1242,6 +1242,13 @@ class UsersController extends AppController {
                 
 	}
 	
+	function working_in_testbranch()
+	{
+		$name  ='Rani mudgal';
+		return $name;
+		
+	}
+	
 	
 	
 }
