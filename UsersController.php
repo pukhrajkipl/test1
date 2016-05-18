@@ -17,7 +17,7 @@ class UsersController extends AppController {
 		echo 'raman';
 		echo 'test';
         parent::beforeFilter();
-        $this->Auth->allow('login','welcome','activate','account_error', 'admin_login', 'captcha','admin_forgot_password','admin_reset_password','forgot_pass','reset_password','check_unique_email','process','activate's,'get_encrypt','get_decrypt');
+        $this->Auth->allow('login','welcome','activate','account_error', 'admin_login', 'captcha','admin_forgot_password','admin_reset_password','forgot_pass','reset_password','check_unique_email','process','activate','fill_states','get_encrypt','get_decrypt');
     }
 
     public function captcha() {
