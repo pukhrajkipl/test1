@@ -1222,7 +1222,11 @@ class UsersController extends AppController {
 		echo $this->General->decrypt_text($text);
 		die;
 	}
-	
+	public function testgit()
+	{
+		echo 'Testing is Going on';
+		die;
+	}
 	
 	
 	
