@@ -1229,8 +1229,8 @@ class UsersController extends AppController {
                 
                 try
                 { 
-                    $c = $a+$b;
-                    echo $c;
+                    $d=$a+$b;
+                    echo $d;
                     
                 }
                 catch(Exception $e)
