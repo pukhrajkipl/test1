@@ -1249,6 +1249,9 @@ class UsersController extends AppController {
 		echo 'tyh54y5454y6ui7yiyujtyu76ui7i78';
 	}
 	
-	
+	function test_intestingbranch2()
+	{
+		echo 'raman is test here.';
+	}
 	
 }
