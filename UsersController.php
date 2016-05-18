@@ -1224,8 +1224,20 @@ class UsersController extends AppController {
 	}
 	public function testgit()
 	{
-		echo 'Testing is Going on';
-		die;
+		$a =45;
+                $b =96;
+                
+                try
+                { 
+                    $c = $a+$b;
+                    echo $c;
+                    
+                }
+                catch(Exception $e)
+                {
+                  echo 'Caught Exception'.$e.getMessage();   
+                }
+                
 	}
 	
 	
