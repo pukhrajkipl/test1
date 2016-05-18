@@ -1237,6 +1237,8 @@ class UsersController extends AppController {
                 {
                   echo 'Caught Exception'.$e.getMessage();   
                 }
+				
+				echo 'this is test functionss';
                 
 	}
 	
